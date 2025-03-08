@@ -1,6 +1,8 @@
 const express = require('express');
 const memberRoutes = require('./src/routes/memberRoutes');
 const app = express();
+const dotenv = require('dotenv');
+dotenv.config();
 
 app.use(express.json());
 
