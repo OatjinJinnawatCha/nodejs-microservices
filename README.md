@@ -8,3 +8,6 @@
    ```sh
    DATABASE_URL="postgresql://postgres:postgres@localhost:5432/postgres?schema=public"
    PORT=4000
+3. **Run Project**
+   ```sh
+   npm run dev
